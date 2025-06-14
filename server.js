@@ -26,7 +26,6 @@ app.use("/api/user", userRouter);
 app.use("/api/task", taskRouter);
 app.use("/api/project", projectRouter);
 const port = process.env.PORT || 4200;
-app.listen(port, async () => {
-  console.log(`My server is running on http://localhost:${port}`);
-  await connectDatabase();
-});
+connectDatabase(); 
+module.exports = app; 
+
