@@ -31,16 +31,12 @@ npm -v
 Open Git Bash or terminal and run:
 
 bash
-Copy
-Edit
 git clone https://github.com/arvind-maurya-563/taskmanger-backend.git
 cd taskmanger-backend
 4️⃣ Install Dependencies
 Run the following command to install all required npm packages:
 
 bash
-Copy
-Edit
 npm install
 5️⃣ Create a .env File
 Create a .env file in the project root with environment variables. Example:
